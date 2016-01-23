@@ -44,3 +44,8 @@ group :test do
   gem 'simplecov'
   gem 'turnip'
 end
+
+group :production do
+  #Heroku
+  gem 'rails_12factor'
+end
